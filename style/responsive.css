@@ -11,8 +11,27 @@
 
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px) and (max-width: 2000px){
+  /*filme principal*/
+  .filme-principal{
+      font-size:16px;
+      background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+      height:590px;
+      background-size:cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+  }
     .descricao{
         width: 50%;
     }
+}
+
+/* min-width & max-width */
+ @media screen and (min-width:1601px) and (max-width: 2000px) {
+	.filme-principal {
+    height:750px;
+}
+
 }
